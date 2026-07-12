@@ -12,7 +12,7 @@ The "Builds on" column shows each module's prerequisites. After Module 3 the pat
 |---|--------|---------------------------|-----------|--------|
 | 1 | [First Steps](./module-01-first-steps/) | Create a Vue project, understand what's in it, and make your first reactive page | - | ✅ Written |
 | 2 | [Reactivity](./module-02-reactivity/) | Model changing data with `ref`, `computed`, and `watch` - Vue's core superpower | 1 | ✅ Written |
-| 3 | [Components](./module-03-components/) | Split a UI into reusable pieces that talk to each other (props, events, slots) | 2 | 📝 Planned |
+| 3 | [Components](./module-03-components/) | Split a UI into reusable pieces that talk to each other (props, events, slots) | 2 | ✅ Written |
 | 4 | [Forms & Input](./module-04-forms-and-input/) | Capture and validate user input with `v-model` | 3 | 📝 Planned |
 | 5 | [Routing](./module-05-routing/) | Turn one page into a multi-page app with Vue Router | 3 | 📝 Planned |
 | 6 | [App-wide State](./module-06-app-wide-state/) | Share data between distant components with Pinia | 3 | 📝 Planned |
