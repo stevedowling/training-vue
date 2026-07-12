@@ -1,22 +1,21 @@
 # Module 7 · Talking to APIs
 
-> 📝 **Not written yet** - when you get here, ask Claude to *"write module 7 of the Vue course"*.
+> **You'll learn:** how Vue apps get real data - fetch + async/await into refs, the loading/error/success pattern that makes pages honest, and composables, Vue's flagship trick for packaging logic you'll reuse forever.
 
-**Builds on:** [Module 2 · Reactivity](../module-02-reactivity/) · Independent of modules 4–6, take in any order.
+**Builds on:** [Module 2 · Reactivity](../module-02-reactivity/) · Independent of modules 4-6, take in any order (exercises use the router from [Module 5](../module-05-routing/) for new pages - adaptable if you haven't done it yet).
 
-## What you'll learn
+## Lessons
 
-- Fetch data from a real API with `fetch` + `async/await` inside a component
-- Model the three states every data-driven page has: **loading / error / success** - and render each
-- Refetch when inputs change (a search box that queries as you type)
-- Extract the pattern into a reusable **composable** (`useFetch`) - your first taste of Vue's logic-reuse story
+1. [Fetching data](./01-fetching-data.md) - fetch, async/await, onMounted, and reading an API's response shape *(~15 min + exercise)*
+2. [Loading, error, success](./02-loading-error-success.md) - the three-state pattern, the res.ok trap, and deliberate sabotage testing *(~15 min + exercise)*
+3. [Composables](./03-composables.md) - extracting useFetch, search-as-you-type, and where VueUse fits *(~20 min + exercise)*
 
-## Planned lessons
+Take them in order - each lesson's code becomes the next one's raw material, ending with a composable you'll genuinely reuse.
 
-1. Fetching data into a component
-2. Loading, error, success - handling all three honestly
-3. Composables - packaging the pattern for reuse
+## When you're done
+
+Your app shows real products from a real API, behaves honestly on slow and broken networks (you'll have sabotaged it yourself to prove it), and its data-fetching lives in a `useFetch` composable with a debounced live search to show for it. You also leave with the component/composable/store sorting instinct - the last architectural tool the capstone needs.
 
 ---
 
-🏠 [Course home](../README.md)
+⬅️ [Module 2 · Reactivity](../module-02-reactivity/) · 🏠 [Course home](../README.md) · ➡️ [Start: Fetching data](./01-fetching-data.md)

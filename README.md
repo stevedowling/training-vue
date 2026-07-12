@@ -16,7 +16,7 @@ The "Builds on" column shows each module's prerequisites. After Module 3 the pat
 | 4 | [Forms & Input](./module-04-forms-and-input/) | Capture and validate user input with `v-model` | 3 | ✅ Written |
 | 5 | [Routing](./module-05-routing/) | Turn one page into a multi-page app with Vue Router | 3 | ✅ Written |
 | 6 | [App-wide State](./module-06-app-wide-state/) | Share data between distant components with Pinia | 3 | ✅ Written |
-| 7 | [Talking to APIs](./module-07-talking-to-apis/) | Fetch real data, and handle loading and error states gracefully | 2 | 📝 Planned |
+| 7 | [Talking to APIs](./module-07-talking-to-apis/) | Fetch real data, and handle loading and error states gracefully | 2 | ✅ Written |
 | 8 | [Capstone: Build & Deploy](./module-08-capstone/) | Combine everything into one small app and deploy it publicly | 4, 5, 6, 7 | 📝 Planned |
 
 > [!TIP]
