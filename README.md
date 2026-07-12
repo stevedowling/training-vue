@@ -4,39 +4,20 @@
 
 No prior framework experience needed. You just need to be comfortable with HTML, CSS, and basic JavaScript.
 
-## 🗺️ Course map
-
-Arrows show what each module builds on. After Module 3 the path **branches** - modules 4, 5, 6 and 7 don't depend on each other, so take them in whatever order looks most interesting. They all meet again at the capstone.
-
-```mermaid
-flowchart TD
-    M1["1 · First Steps"] --> M2["2 · Reactivity"]
-    M2 --> M3["3 · Components"]
-    M3 --> M4["4 · Forms & Input"]
-    M3 --> M5["5 · Routing"]
-    M3 --> M6["6 · App-wide State"]
-    M2 --> M7["7 · Talking to APIs"]
-    M4 --> M8["8 · Capstone: Build & Deploy"]
-    M5 --> M8
-    M6 --> M8
-    M7 --> M8
-
-    style M1 fill:#42b883,color:#fff
-    style M8 fill:#35495e,color:#fff
-```
-
 ## 📦 Modules
 
-| # | Module | What you'll be able to do | Status |
-|---|--------|---------------------------|--------|
-| 1 | [First Steps](./module-01-first-steps/) | Create a Vue project, understand what's in it, and make your first reactive page | ✅ Written |
-| 2 | [Reactivity](./module-02-reactivity/) | Model changing data with `ref`, `computed`, and `watch` - Vue's core superpower | 📝 Planned |
-| 3 | [Components](./module-03-components/) | Split a UI into reusable pieces that talk to each other (props, events, slots) | 📝 Planned |
-| 4 | [Forms & Input](./module-04-forms-and-input/) | Capture and validate user input with `v-model` | 📝 Planned |
-| 5 | [Routing](./module-05-routing/) | Turn one page into a multi-page app with Vue Router | 📝 Planned |
-| 6 | [App-wide State](./module-06-app-wide-state/) | Share data between distant components with Pinia | 📝 Planned |
-| 7 | [Talking to APIs](./module-07-talking-to-apis/) | Fetch real data, and handle loading and error states gracefully | 📝 Planned |
-| 8 | [Capstone: Build & Deploy](./module-08-capstone/) | Combine everything into one small app and deploy it publicly | 📝 Planned |
+The "Builds on" column shows each module's prerequisites. After Module 3 the path **branches** - modules 4, 5, 6 and 7 don't depend on each other, so take them in whatever order looks most interesting. They all meet again at the capstone.
+
+| # | Module | What you'll be able to do | Builds on | Status |
+|---|--------|---------------------------|-----------|--------|
+| 1 | [First Steps](./module-01-first-steps/) | Create a Vue project, understand what's in it, and make your first reactive page | - | ✅ Written |
+| 2 | [Reactivity](./module-02-reactivity/) | Model changing data with `ref`, `computed`, and `watch` - Vue's core superpower | 1 | ✅ Written |
+| 3 | [Components](./module-03-components/) | Split a UI into reusable pieces that talk to each other (props, events, slots) | 2 | 📝 Planned |
+| 4 | [Forms & Input](./module-04-forms-and-input/) | Capture and validate user input with `v-model` | 3 | 📝 Planned |
+| 5 | [Routing](./module-05-routing/) | Turn one page into a multi-page app with Vue Router | 3 | 📝 Planned |
+| 6 | [App-wide State](./module-06-app-wide-state/) | Share data between distant components with Pinia | 3 | 📝 Planned |
+| 7 | [Talking to APIs](./module-07-talking-to-apis/) | Fetch real data, and handle loading and error states gracefully | 2 | 📝 Planned |
+| 8 | [Capstone: Build & Deploy](./module-08-capstone/) | Combine everything into one small app and deploy it publicly | 4, 5, 6, 7 | 📝 Planned |
 
 > [!TIP]
 > Planned modules have their learning goals written up already - open one to see what's coming. When you reach it, just ask Claude to *"write module N of the Vue course"*.

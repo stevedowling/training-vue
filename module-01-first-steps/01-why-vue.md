@@ -94,4 +94,4 @@ Open the **[Vue Playground](https://play.vuejs.org)** - a full Vue environment i
 
 ---
 
-🗺️ [Course map](../README.md) · ➡️ [Next: Your First Project](./02-your-first-project.md)
+🏠 [Course home](../README.md) · ➡️ [Next: Your First Project](./02-your-first-project.md)

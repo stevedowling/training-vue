@@ -21,4 +21,4 @@ Build one complete small app from scratch - multiple pages, a form, shared state
 
 ---
 
-🗺️ [Course map](../README.md)
+🏠 [Course home](../README.md)

@@ -196,4 +196,4 @@ function reset() {
 
 ---
 
-⬅️ [Previous: Your First Project](./02-your-first-project.md) · 🗺️ [Course map](../README.md) · ➡️ Next: [Module 2 · Reactivity](../module-02-reactivity/) *(ask Claude to write it when you're ready!)*
+⬅️ [Previous: Your First Project](./02-your-first-project.md) · 🏠 [Course home](../README.md) · ➡️ Next: [Module 2 · Reactivity](../module-02-reactivity/)

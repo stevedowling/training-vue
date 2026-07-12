@@ -16,4 +16,4 @@ You'll have a running Vue project on your machine and a page you built yourself 
 
 ---
 
-🗺️ [Course map](../README.md) · ➡️ [Start: Why Vue?](./01-why-vue.md)
+🏠 [Course home](../README.md) · ➡️ [Start: Why Vue?](./01-why-vue.md)

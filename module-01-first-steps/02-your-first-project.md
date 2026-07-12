@@ -124,4 +124,4 @@ h1 {
 
 ---
 
-⬅️ [Previous: Why Vue?](./01-why-vue.md) · 🗺️ [Course map](../README.md) · ➡️ [Next: Templates & Reactivity](./03-templates-and-reactivity.md)
+⬅️ [Previous: Why Vue?](./01-why-vue.md) · 🏠 [Course home](../README.md) · ➡️ [Next: Templates & Reactivity](./03-templates-and-reactivity.md)

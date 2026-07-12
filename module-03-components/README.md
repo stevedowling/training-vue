@@ -20,4 +20,4 @@
 
 ---
 
-🗺️ [Course map](../README.md)
+🏠 [Course home](../README.md)
