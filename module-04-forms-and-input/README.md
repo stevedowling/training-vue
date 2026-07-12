@@ -1,22 +1,21 @@
 # Module 4 · Forms & Input
 
-> 📝 **Not written yet** - when you get here, ask Claude to *"write module 4 of the Vue course"*.
+> **You'll learn:** everything user input - `v-model` across every input type, submit handling and validation that's correct *and* polite, and custom components that bind like native inputs.
 
-**Builds on:** [Module 3 · Components](../module-03-components/) · Independent of modules 5–7, take in any order.
+**Builds on:** [Module 3 · Components](../module-03-components/) · Independent of modules 5-7, take in any order.
 
-## What you'll learn
+## Lessons
 
-- Two-way binding with `v-model` on text inputs, checkboxes, radios, and selects
-- Handle form submission (and stop the browser's default page reload)
-- Validate input and show friendly error messages reactively
-- Use `v-model` on your *own* components
+1. [v-model](./01-v-model.md) - two-way binding on text, checkboxes, radios, selects, and the three modifiers that matter *(~15 min + exercise)*
+2. [Submitting and validating](./02-submitting-and-validating.md) - `@submit.prevent`, validation as computeds, and the politeness layer *(~15 min + exercise)*
+3. [v-model on custom components](./03-v-model-on-custom-components.md) - `defineModel`, and why it's just props-down-events-up in a bow *(~15 min + exercise)*
 
-## Planned lessons
+Take them in order - the exercises build one artifact: a Pizza Builder that goes from bound inputs to a validated checkout with custom controls.
 
-1. `v-model` - two-way binding on every input type
-2. Submitting and validating a form
-3. `v-model` on custom components
+## When you're done
+
+You can build a real form end to end: live summaries, honest validation with kind timing, no page reloads, and reusable inputs (a star rating, a quantity stepper) that any future project can lift wholesale.
 
 ---
 
-🏠 [Course home](../README.md)
+⬅️ [Module 3 · Components](../module-03-components/) · 🏠 [Course home](../README.md) · ➡️ [Start: v-model](./01-v-model.md)
