@@ -17,10 +17,10 @@ The "Builds on" column shows each module's prerequisites. After Module 3 the pat
 | 5 | [Routing](./module-05-routing/) | Turn one page into a multi-page app with Vue Router | 3 | ✅ Written |
 | 6 | [App-wide State](./module-06-app-wide-state/) | Share data between distant components with Pinia | 3 | ✅ Written |
 | 7 | [Talking to APIs](./module-07-talking-to-apis/) | Fetch real data, and handle loading and error states gracefully | 2 | ✅ Written |
-| 8 | [Capstone: Build & Deploy](./module-08-capstone/) | Combine everything into one small app and deploy it publicly | 4, 5, 6, 7 | 📝 Planned |
+| 8 | [Capstone: Build & Deploy](./module-08-capstone/) | Combine everything into one small app and deploy it publicly | 4, 5, 6, 7 | ✅ Written |
 
 > [!TIP]
-> Planned modules have their learning goals written up already - open one to see what's coming. When you reach it, just ask Claude to *"write module N of the Vue course"*.
+> All eight modules are written - work through them at your own pace, and tick them off in the progress list below as you go.
 
 ## ✅ Progress
 
